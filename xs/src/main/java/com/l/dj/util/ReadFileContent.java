@@ -20,8 +20,9 @@ public class ReadFileContent {
         String line;
         while ((line = br.readLine()) != null) {
             System.out.println(line);
-            if (line.trim().length() > 0)
-            list.add(line);
+            if (line.trim().length() > 0){
+                list.add(line);
+            }
 //            file.append(line);
         }
         br.close();
