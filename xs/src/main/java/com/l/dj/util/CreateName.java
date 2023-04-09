@@ -61,7 +61,7 @@ public class CreateName {
 //        System.out.println("name2 长度-->"+name2.length());//597
 
         //男名
-        if(false){
+        if(true){
             for (int i = 0; i< 50 ; i++){
                 //姓氏概率： 0：稀有姓氏；(0,3]:少量使用率姓氏； (3,6]:高使用率率姓氏； (6,9]:大姓
                 int xsProbability = (int)(Math.random()*10);
@@ -166,7 +166,7 @@ public class CreateName {
 
     public static void main(String[] args) {
         getName();
-//        createDongTianName();
+        createDongTianName();
     }
 
 }
