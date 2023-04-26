@@ -166,7 +166,7 @@ public class CreateName {
 
     public static void main(String[] args) {
         getName();
-        createDongTianName();
+//        createDongTianName();
     }
 
 }
