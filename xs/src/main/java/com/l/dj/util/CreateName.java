@@ -165,8 +165,10 @@ public class CreateName {
     }
 
     public static void main(String[] args) {
-        getName();
+//        getName();
 //        createDongTianName();
+        String aa = "hello world";
+        System.out.println(aa.length()+"--"+aa.indexOf("d")+"--"+aa.substring(9,11));
     }
 
 }
