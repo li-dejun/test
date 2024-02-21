@@ -106,4 +106,11 @@ public class CreateFile {
             System.out.println("七天前的日期是：" + sdf.format(calendar.getTime()));
         }
     }
+
+    /**
+     * 泛型测试
+     */
+    public <T> void Generics(T param){
+        System.out.println("泛型参数--> 类型：" + param.getClass() + ", 值："+param);
+    }
 }
