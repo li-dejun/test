@@ -6,7 +6,7 @@ public class ByteTrans {
      * int值转为4个byte数值
      */
     public static void main(String[] args) {
-        trans1();
+        trans2();
     }
     public static void trans1(){
         int a = 1445435;
@@ -26,5 +26,15 @@ public class ByteTrans {
         byte i3 = (byte) (a & 0xFF);
 
         System.out.println(""+i0+" "+i1+" "+i2+" "+i3+" ");
+    }
+
+    /**
+     * 高低位互换
+     */
+    public static void trans2(){
+        int num = 123;
+        int heiBits = (num & 0xff) << 8;
+        int lowBits = (num >> 8) & 0xff;
+        int sw = heiBits | lowBits;
     }
 }
